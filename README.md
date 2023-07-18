@@ -10,4 +10,4 @@ stow .
 
 # Inspiration
 
-THe inspiration for this configuration comes from the dotfiles by [dreamsofcode-io](https://github.com/dreamsofcode-io/dotfiles) (which is inspired by the [dotfiles by daviwil](https://github.com/daviwil/dotfiles). If you are looking for inspiration for nvim, tmux, emacs config, or how to setup system configuration synchronization, I'd suggest you watch his videos.
+THe inspiration for this configuration comes from the dotfiles by [dreamsofcode-io](https://github.com/dreamsofcode-io/dotfiles) (which is inspired by the [dotfiles by daviwil](https://github.com/daviwil/dotfiles)). If you are looking for inspiration for nvim, tmux, emacs config, or how to setup system configuration synchronization, I'd suggest you watch his videos.
