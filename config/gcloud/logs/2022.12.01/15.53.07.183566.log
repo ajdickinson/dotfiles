@@ -1,0 +1,11 @@
+2022-12-01 15:53:07,184 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2022-12-01 15:53:07,186 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2022-12-01 15:53:07,187 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "ajdickinson.3@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "github-proj-330300"]
+2022-12-01 15:53:07,216 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-12-01 15:53:07,228 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-12-01 15:53:07,333 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-12-01 15:53:07,388 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-12-01 15:53:07,610 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/github-proj-330300?alt=json HTTP/1.1" 200 None
+2022-12-01 15:53:07,613 INFO     root            Display format: "default value(name)"
+2022-12-01 15:53:07,614 INFO     ___FILE_ONLY___ github-proj
+
