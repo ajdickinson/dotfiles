@@ -1,9 +1,0 @@
-{
-    "quickAddNext": "Shift+Cmd+D",
-    "nextPlot": "Alt+Shift+.",
-    "previousPlot": "Alt+Shift+,",
-    "projectOptions": "",
-    "commentUncomment": "Cmd+/",
-    "insertPipeOperator": "Shift+Cmd+M",
-    "compileNotebook": "Shift+Cmd+K"
-}
