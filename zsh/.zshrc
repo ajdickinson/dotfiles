@@ -45,3 +45,4 @@ alias vim=nvim
 
 # Alias R for radian
 alias R=radian
+export TMUX_PLUGIN_MANAGER_PATH=~/.tmux/plugins/

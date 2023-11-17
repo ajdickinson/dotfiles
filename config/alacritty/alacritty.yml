@@ -1,4 +1,6 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator
+#   Credit to @SunnnyChan 
+#   (https://sunnnychan.github.io/cheatsheet/linux/config/alacritty.yml.html)
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -16,24 +18,24 @@ env:
 window:
   # Window dimensions in character columns and lines
   # (changes require restart)
-  dimensions:
-    columns: 80
-    lines: 80
+  # dimensions:
+    # columns: 77
+    # lines: 80
 
   # Window position (changes require restart)
   #
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
-  position:
-    x: 0
-    y: 0
+  # position:
+   # x: 
+   # y: 
 
   # Adds this many blank pixels of padding around the window
   # Units are physical pixels; this is not DPI aware.
   # (change requires restart)
   padding:
     x: 10
-    y: 10
+    y: 0
 
   # Window decorations
   # Setting this to false will result in window without borders and title bar.
@@ -69,13 +71,13 @@ font:
     # style: Regular
 
   # Point size of the font
-  size: 14
+  size: 20
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
   offset:
     x: 0
-    y: 0
+    y: 10
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increase the x offset to move the glyph to
@@ -220,11 +222,11 @@ theme: Catppuccin
 #
 # You can set shell.program to the path of your favorite shell, e.g. /bin/fish.
 # Entries in shell.args are passed unmodified as arguments to the shell.
-#
 shell:
   program: /bin/zsh
   args:
     - --login
+      #    - --command=tmux
 
 # Key bindings
 #
