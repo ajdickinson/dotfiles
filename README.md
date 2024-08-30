@@ -1,13 +1,13 @@
 # dotfiles
 
-This repo contains my dotfile configuration, allowing for a consistent computing experience across multiple machines. These days I primarily use GNU/Linux via the Arch Linux distribution.
+This repo contains my dotfile configuration, allowing for a consistent computing experience across multiple machines. These days I primarily am switching between MacOS and Ubuntu.
 
-I manage the various configuration files in this repo using GNU Stow. This allows me to set up symlinks for all of my dotfiles using a single command:
+Various configuration files in this repo are managed using GNU Stow. Stow manages symlinks for all of config files using the following command:
 
 ```
 stow .
 ```
 
-# Inspiration
+Ensure that stow and git are installed on your system. Enter the dotfiles directory within your home directory and use the command above to create symlinks from .config to dotfiles directories.
 
-The inspiration for this configuration comes from the dotfiles by [dreamsofcode-io](https://github.com/dreamsofcode-io/dotfiles) (which is inspired by the [dotfiles by daviwil](https://github.com/daviwil/dotfiles)). If you are looking for inspiration for nvim, tmux, emacs config, or how to setup system configuration synchronization, I'd suggest you watch either of these creator's videos.
+For additional information, this youtube video is a helpful starting point: [video](https://youtu.be/y6XCebnB9gs?si=rf9vj4N-tUrOdg4F)
